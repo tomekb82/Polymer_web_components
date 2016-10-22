@@ -1,5 +1,35 @@
 # Your first Polymer element
 
+
+Install Polymer CLI.
+
+Install the Polymer CLI to serve the demo locally.
+
+    Install the LTS version (4.x) of Node.js. The current version (6.x) should work, but is not officially supported. Versions below LTS are not supported.
+
+    Install git.
+
+    Install the latest version of Bower.
+
+    npm install -g bower
+
+    Install Polymer CLI.
+
+    npm install -g polymer-cli
+
+
+Run the demo
+
+To run the element demo:
+
+    Run polymer serve from the repo directory:
+
+    polymer serve
+
+    Open localhost:8080/components/icon-toggle/demo/ in your browser.
+
+--------------------------------------------------------------------------
+
 This repo goes with the [Build your first Polymer element codelab](http://www.code-labs.io/codelabs/polymer-first-elements/).
 
 The codelab is designed to be used with [Chrome Dev Editor](https://chrome.google.com/webstore/detail/chrome-dev-editor-develop/pnoffddplpippgcfjdhbmhkofpnaalpg?hl=en).
