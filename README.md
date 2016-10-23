@@ -45,6 +45,32 @@ serve project
 
 polymer serve --open
 
+Install a 3rd-party component
+------------------------------
+
+Once you've identified a component you'd like to install, you'll want to find the bower package name for the component.
+
+bower install --save PolymerElements/paper-slider
+
+Add the element to your application
+------------------------------------
+
+1. Open src/my-new-view.html in a text editor.
+
+2. Import paper-slider.html as a dependency
+
+Add this import beneath the existing import for polymer.html:
+
+<link rel="import" href="../bower_components/paper-slider/paper-slider.html">
+
+3. Add the <paper-slider> element to the template for the element.
+
+<paper-slider min="-100" max="100" value="50"></paper-slider>
+
+
+
+
+
 --------------------------------------------------------------------------
 
 This repo goes with the [Build your first Polymer element codelab](http://www.code-labs.io/codelabs/polymer-first-elements/).
