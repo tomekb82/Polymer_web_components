@@ -37,7 +37,13 @@
         notify: true,
         reflectToAttribute: true
       }
-    }
+    },
+    listeners: {
+      'tap': 'toggle'
+    },
+    toggle: function() {
+      this.pressed = !this.pressed;
+    },
   });
   </script>
 
