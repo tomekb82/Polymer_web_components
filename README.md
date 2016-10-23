@@ -30,6 +30,21 @@ To run the element demo:
 
     Open localhost:8080/components/icon-toggle/demo/ in your browser.
 
+
+Initialize your project from a template
+
+Create a new project folder to start from
+
+ mkdir my-app
+ cd my-app
+Initialize your project with an app template
+
+ polymer init starter-kit
+
+serve project
+
+polymer serve --open
+
 --------------------------------------------------------------------------
 
 This repo goes with the [Build your first Polymer element codelab](http://www.code-labs.io/codelabs/polymer-first-elements/).
